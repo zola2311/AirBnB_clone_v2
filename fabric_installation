@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+# Script that configures Fabric files
 pip3 uninstall Fabric
 sudo apt-get install libffi-dev
 sudo apt-get install libssl-dev
