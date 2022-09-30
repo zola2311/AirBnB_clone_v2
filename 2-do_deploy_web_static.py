@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """ Fabric script that distributes an archive to your web servers """
-from fabric.api import env, put, run
-from os.path import exists
+import os.path
+from fabric.api import env
+from fabric.api import put
 
 env.hosts = ['44.192.52.135', '44.192.246.111']
 
